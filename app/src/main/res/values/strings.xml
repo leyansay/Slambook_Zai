@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SlamBook</string>
+    <string name="create_memories_connect_with_friends_and_share_your_thoughts_customize_your_profile_and_dive_into_the_fun_let_s_make_it_unforgettable">Create memories, connect with friends, and share your thoughts. Customize your profile and dive into the fun. Let’s make it unforgettable!</string>
+    <string name="hello_welcome_to_slambook">Hello, Welcome to Slambook!</string>
+    <string name="logo">logo</string>
+    <string name="bio">Bio</string>
+    <string name="share_the_nickname_or_name_everyone_uses_to_call_you">Share the nickname or name everyone uses to call you!</string>
+    <string name="nickname">Nickname</string>
+    <string name="hometown">HOMETOWN</string>
+    <string name="next">Next</string>
+    <string name="where_did_you_grow_up">Where did you grow up?</string>
+    <string name="gender">gender</string>
+    <string name="HOmetown">Hometown</string>
+    <string name="HOMETOWN">HOMETOWN</string>
+    <string name="name_people_call_you">Name people call you?</string>
+    <string name="start_your_slam">Start your Slam</string>
+    <string name="a_special_name_to_add_to_this_memorable_page">A special name to add to this memorable page.</string>
+    <string name="what_s_your_friends_name">what\'s your friends name?</string>
+    <string name="name">Name</string>
+    <string name="your_gender_identity">Your gender identity.</string>
+    <string name="how_old_you_are">How old you are.</string>
+    <string name="age">age</string>
+    <string name="GENDER">Gender</string>
+    <string name="AGE">Age</string>
+</resources>
