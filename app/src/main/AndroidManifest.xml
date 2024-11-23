@@ -13,19 +13,13 @@
         android:theme="@style/Theme.SlamBook"
         tools:targetApi="31">
         <activity
-            android:name=".Profile"
+            android:name=".FillFavePage"
             android:exported="false" />
         <activity
-            android:name=".Fillfave"
+            android:name=".SlamFill1"
             android:exported="false" />
         <activity
-            android:name=".SlamFIll"
-            android:exported="false" />
-        <activity
-            android:name=".Home"
-            android:exported="false" />
-        <activity
-            android:name=".Userinfo"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

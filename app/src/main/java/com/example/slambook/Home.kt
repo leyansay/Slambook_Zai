@@ -1,20 +1,31 @@
 package com.example.slambook
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
-class Home : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_home)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        setContentView(R.layout.activity_home) // Replace with your layout
+
+        // Retrieve the combined data from the Intent
+        val allData = intent.getStringArrayListExtra("ALL_DATA")
+
+
+        if (allData != null) {
+            // Display the combined data, for example, in a TextView
+            val textView = findViewById<TextView>(R.id.textView) // Replace with your TextView ID
+            textView.text = allData.joinToString("\n")
         }
+
+        findViewById<ImageView>(R.id.addButton).setOnClickListener {
+            val intent = Intent(this, SlamFill1::class.java)
+            startActivity(intent)
+        }
+
     }
 }

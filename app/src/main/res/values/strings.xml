@@ -22,4 +22,16 @@
     <string name="age">age</string>
     <string name="GENDER">Gender</string>
     <string name="AGE">Age</string>
+    <string name="get_started">Get Started</string>
+
+        <string-array name="gender_options">
+            <item>Male</item>
+            <item>Female</item>
+            <item>Non-Binary</item>
+            <item>Genderfluid</item>
+            <item>Agender</item>
+            <item>Bigender</item>
+            <item>Two-Spirit</item>
+        </string-array>
+
 </resources>
